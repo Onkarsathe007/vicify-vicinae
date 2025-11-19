@@ -1,0 +1,262 @@
+{
+  "$schema": "https://raw.githubusercontent.com/vicinaehq/vicinae/refs/heads/main/extra/schemas/extension.json",
+  "name": "vicify",
+  "title": "Vicify",
+  "description": "Control Spotify playback, search music, manage playlists, and more",
+  "categories": ["Media"],
+  "license": "MIT",
+  "author": "RazoBeckett",
+  "contributors": [],
+  "pastContributors": [],
+  "icon": "extension_icon.png",
+  "commands": [
+    {
+      "name": "search",
+      "title": "Search",
+      "subtitle": "Search Spotify",
+      "description": "Search for tracks, artists, albums, and playlists",
+      "mode": "view"
+    },
+    {
+      "name": "next",
+      "title": "Next",
+      "subtitle": "Skip to next track",
+      "description": "Skip to the next track in queue",
+      "mode": "no-view"
+    },
+    {
+      "name": "previous",
+      "title": "Previous",
+      "subtitle": "Go to previous track",
+      "description": "Go back to the previous track",
+      "mode": "no-view"
+    },
+    {
+      "name": "toggle-play-pause",
+      "title": "Toggle Play/Pause",
+      "subtitle": "Play or pause",
+      "description": "Toggle between play and pause",
+      "mode": "no-view"
+    },
+    {
+      "name": "copy-artist-and-title",
+      "title": "Copy Artist And Title",
+      "subtitle": "Copy current track info",
+      "description": "Copy the artist name and track title to clipboard",
+      "mode": "no-view"
+    },
+    {
+      "name": "find-lyrics",
+      "title": "Find Lyrics",
+      "subtitle": "Search for lyrics",
+      "description": "Search for lyrics of the currently playing track",
+      "mode": "no-view"
+    },
+    {
+      "name": "your-library",
+      "title": "Your Library",
+      "subtitle": "Browse your library",
+      "description": "View your saved tracks, albums, and playlists",
+      "mode": "view"
+    },
+    {
+      "name": "now-playing",
+      "title": "Now Playing",
+      "subtitle": "Current track details",
+      "description": "View detailed information about the currently playing track",
+      "mode": "view"
+    },
+    {
+      "name": "add-to-playlist",
+      "title": "Add Playing to Playlist",
+      "subtitle": "Save current track",
+      "description": "Add the currently playing track to a playlist",
+      "mode": "view"
+    },
+    {
+      "name": "remove-from-playlist",
+      "title": "Remove Playing Song from Playlist",
+      "subtitle": "Remove from playlist",
+      "description": "Remove the currently playing track from a playlist",
+      "mode": "view"
+    },
+    {
+      "name": "cycle-repeat",
+      "title": "Cycle Repeat",
+      "subtitle": "Change repeat mode",
+      "description": "Cycle through repeat modes (off/track/context)",
+      "mode": "no-view"
+    },
+    {
+      "name": "copy-url",
+      "title": "Copy URL",
+      "subtitle": "Copy Spotify URL",
+      "description": "Copy the Spotify URL of the currently playing track",
+      "mode": "no-view"
+    },
+    {
+      "name": "current-track",
+      "title": "Current Track",
+      "subtitle": "Track information",
+      "description": "View current track information",
+      "mode": "view"
+    },
+    {
+      "name": "start-radio",
+      "title": "Start Radio",
+      "subtitle": "Start radio from track",
+      "description": "Start a radio based on the currently playing track",
+      "mode": "no-view"
+    },
+    {
+      "name": "like",
+      "title": "Like",
+      "subtitle": "Like current track",
+      "description": "Add the currently playing track to your Liked Songs",
+      "mode": "no-view"
+    },
+    {
+      "name": "dislike",
+      "title": "Dislike",
+      "subtitle": "Remove from Liked Songs",
+      "description": "Remove the currently playing track from your Liked Songs",
+      "mode": "no-view"
+    },
+    {
+      "name": "just-play",
+      "title": "Just Play",
+      "subtitle": "Resume playback",
+      "description": "Resume Spotify playback",
+      "mode": "no-view"
+    },
+    {
+      "name": "queue",
+      "title": "Queue",
+      "subtitle": "View queue",
+      "description": "View your current playback queue",
+      "mode": "view"
+    },
+    {
+      "name": "start-dj",
+      "title": "Start DJ",
+      "subtitle": "Start DJ mode",
+      "description": "Start Spotify DJ for personalized music mix",
+      "mode": "no-view"
+    },
+    {
+      "name": "copy-embed-code",
+      "title": "Copy Embed Code",
+      "subtitle": "Copy embed code",
+      "description": "Copy the Spotify embed code for the current track",
+      "mode": "no-view"
+    },
+    {
+      "name": "skip-15",
+      "title": "Skip 15 Seconds",
+      "subtitle": "Skip forward",
+      "description": "Skip forward 15 seconds",
+      "mode": "no-view"
+    },
+    {
+      "name": "back-15",
+      "title": "Back 15 Seconds",
+      "subtitle": "Skip backward",
+      "description": "Skip backward 15 seconds",
+      "mode": "no-view"
+    },
+    {
+      "name": "volume-0",
+      "title": "Set Volume to 0%",
+      "subtitle": "Mute",
+      "description": "Set volume to 0%",
+      "mode": "no-view"
+    },
+    {
+      "name": "volume-25",
+      "title": "Set Volume to 25%",
+      "subtitle": "Low volume",
+      "description": "Set volume to 25%",
+      "mode": "no-view"
+    },
+    {
+      "name": "volume-50",
+      "title": "Set Volume to 50%",
+      "subtitle": "Medium volume",
+      "description": "Set volume to 50%",
+      "mode": "no-view"
+    },
+    {
+      "name": "volume-75",
+      "title": "Set Volume to 75%",
+      "subtitle": "High volume",
+      "description": "Set volume to 75%",
+      "mode": "no-view"
+    },
+    {
+      "name": "volume-100",
+      "title": "Set Volume to 100%",
+      "subtitle": "Maximum volume",
+      "description": "Set volume to 100%",
+      "mode": "no-view"
+    },
+    {
+      "name": "volume-down",
+      "title": "Turn Volume Down",
+      "subtitle": "Decrease volume",
+      "description": "Decrease volume by 10%",
+      "mode": "no-view"
+    },
+    {
+      "name": "volume-up",
+      "title": "Turn Volume Up",
+      "subtitle": "Increase volume",
+      "description": "Increase volume by 10%",
+      "mode": "no-view"
+    },
+    {
+      "name": "toggle-shuffle",
+      "title": "Toggle Shuffle",
+      "subtitle": "Shuffle on/off",
+      "description": "Toggle shuffle mode on or off",
+      "mode": "no-view"
+    },
+    {
+      "name": "devices",
+      "title": "Devices",
+      "subtitle": "Select playback device",
+      "description": "View and switch between available Spotify playback devices",
+      "mode": "view"
+    }
+  ],
+  "preferences": [
+    {
+      "name": "clientId",
+      "type": "textfield",
+      "required": true,
+      "title": "Spotify Client ID",
+      "description": "Your Spotify app's Client ID (create at developer.spotify.com)",
+      "placeholder": "Enter your Client ID"
+    },
+    {
+      "name": "clientSecret",
+      "type": "password",
+      "required": true,
+      "title": "Spotify Client Secret",
+      "description": "Your Spotify app's Client Secret",
+      "placeholder": "Enter your Client Secret"
+    }
+  ],
+  "scripts": {
+    "build": "vici build",
+    "dev": "vici develop"
+  },
+  "dependencies": {
+    "@spotify/web-api-ts-sdk": "^1.2.0",
+    "@types/react": "^19.2.2",
+    "@vicinae/api": "^0.16.0",
+    "react": "^19.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
